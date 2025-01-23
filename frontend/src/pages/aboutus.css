@@ -1,0 +1,220 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+.container3 {
+  height:170vh; 
+  max-width: 100%;
+  background-image: url('../Assets/i45.jpg');
+  background-size: cover;
+}
+
+
+
+/* Navbar Styles */
+.navbarabout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #8a0c0c;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-leftabout {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-leftabout img {
+  margin-left: 0;
+}
+
+.navbar-leftabout .name {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+.navbar-menuabout {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-menuabout li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-menuabout li a:hover {
+  color: #ffcc00;
+}
+
+.navbar-rightabout {
+  display: flex;
+  align-items: center;
+}
+
+.search-barabout {
+  position: relative;
+}
+
+.search-input {
+  padding: 5px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+}
+
+.about-button {
+  background-color: #ff9800;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.about-button:hover {
+  background-color: #000000;
+}
+
+/* About Us Page Content */
+.about-us {
+  padding: 10px; /* Adds padding around the content */
+  max-width: 990px; 
+  margin: 10 auto; /* Centers the content */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Applies a clean font */
+  line-height: 1.6; /* Improves readability */
+  background-size: cover; /* Ensures the image covers the entire section */
+  margin-left: 50px;  
+}
+
+
+.heading .detailabout {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.underlineabout {
+  width: 150px;
+  height: 3px;
+  background-color: #ff0000;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* Section Styles */
+.about-section,
+.mission-section,
+.achievements-section,
+.team-section,
+.call-to-action-section {
+  margin-bottom: 30px;
+}
+
+.about-section h2,
+.mission-section h2,
+.achievements-section h2,
+.team-section h2,
+.call-to-action-section h2 {
+  font-size: 28px;
+  color: #110d06c2;
+  margin-bottom: 20px;
+  text-align: left;
+  border-bottom: 2px solid #b47216a8;
+
+}
+
+.about-section p,
+.mission-section p,
+.team-section p,
+.call-to-action-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333333db;
+}
+
+.achievements-section ul {
+  font-size: 1.1rem;
+  color: #333333db;
+  list-style: inside disc;
+  line-height: 1.6;
+}
+
+.call-to-action-section .cta-button {
+  background-color: #14a41c;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.call-to-action-section .cta-button:hover {
+  background-color: #000000;
+}
+
+
+/* Scroll to Top Button - Rectangle Shape */
+.go-up-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #dd981a;
+  border: none;
+  padding: 10px 20px; /* Adjust padding for rectangular shape */
+  font-size: 1.3rem;   /* Slightly smaller text size to fit the rectangle */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0); /* Add a shadow for better visibility */
+  transition: background-color 0.3s;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-menuabout {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar-menuabout li a {
+    font-size: 1.2rem;
+  }
+
+  .about-us {
+    padding: 0 10px;
+  }
+
+  .about-section h2,
+  .mission-section h2,
+  .achievements-section h2,
+  .team-section h2,
+  .call-to-action-section h2 {
+    font-size: 1.8rem;
+  }
+
+}

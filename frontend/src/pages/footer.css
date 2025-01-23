@@ -1,0 +1,133 @@
+.footer {
+  background-color: #9e1a1a;
+  color: white;
+  padding: 20px 0;
+  text-align: left;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.footer-section p {
+  margin: 5px 0;
+  font-size: 14px;
+  text-align: left;
+  color: white;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-section ul.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-section ul.social-media li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.footer-section ul.social-media li a:hover {
+  color: #007bff;
+}
+
+.sub {
+
+  margin-top: 30px;
+}
+
+.sub .subscribe-section {
+  /* background-color:  #1e181638; */
+  border-radius: 10px;
+  /* align-items: center; */
+  height: 220px;
+}
+
+
+.email-icon {
+  font-size: 29px;
+  margin-left: 14px;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+.subscribe-form input {
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  font-size: 16px;
+  width: 240px;
+  height: 40px;
+}
+
+
+.subscribe-form button {
+  background-color: #dd981a;
+  border: none;
+  padding: 10px;
+  border-radius: 0px;
+  cursor: pointer;
+  height: 40px;
+  width:40px;
+  margin-right: 14px;
+  /* box-shadow: 4px (0, 0, 0, 2.5); */
+}
+
+.subscribe-form .hover {
+  background-color: #000000;
+}
+
+.sub .subscribe-section p {
+  margin: 6px;
+  font-size: 15px;
+  width: 300px;
+  margin-top: 23px;
+  color: white;
+}
+
+.subscribe-message {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.footer-bottom .f{
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #302323;
+  padding-top: 10px;
+  color: white;
+}
+
+

@@ -1,0 +1,91 @@
+.container6 {
+  max-height: 1024px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-right: 5rem;
+  padding-left: 17rem;
+  /* justify-content: center;
+  align-items: center; */
+  height: 100vh; /* Ensures container takes full viewport height */
+  margin-top: 0px;
+  background-image: url('../Assets/a21.jpg');
+  background-size: cover;
+}
+
+.forgot-password-container {
+    max-width: 500px;
+    margin-top:0px;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+    /* border-radius: 8px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* text-align: center; */
+    /* align-items: flex-start; */
+    /* background: rgba(190, 187, 187, 0.332); 
+    box-shadow:  0 4px 8px rgb(0, 0, 0); */
+  }
+  
+  .forgot-password-container .ul {
+    margin-top: 200px;
+    margin-bottom: 10px;
+    /* margin-left:67px; */
+  }
+
+  .uline {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .uline .line {
+    width: 180px;
+    height: 4px;
+    background-color: #fc2d08;
+    margin-left: 30px;
+  }
+
+  .sentence {
+    margin-left: 0px; 
+    width:380px;
+    margin-bottom: 40px;
+    color: #000000;
+
+  }
+
+  .form-groupforgot label {
+    margin-bottom: 17px;
+    width: 280px;
+    text-align: left;
+  }
+  
+  .form-groupforgot input[type="email"] {
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit2"] {
+    height: 40px;
+    width: 400px;
+    padding: 10px;
+    background: #4c00b4; 
+    color: #fff;
+    border: none;
+    font-size: 19px; 
+    font-weight: 700; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:20px; 
+  }
+  
+  button[type="submit2"]:hover {
+    background: #000000;
+  }
+
+  button[type="submit"]:disabled {
+    background-color: #ccc;
+  }
+  

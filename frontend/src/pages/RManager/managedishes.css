@@ -1,0 +1,152 @@
+/* Container for the entire Manage Dishes page
+.containerdishes {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the form 
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none; 
+    height: 80px;
+  }
+  
+  /* Style for the file input 
+  input[type="file"] {
+    padding: 5px;
+    border: none;
+    background-color: #fff;
+  }
+  
+  /* Submit button styling 
+  button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Dishes list 
+  h2 {
+    margin-top: 40px;
+    text-align: center;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul li h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  ul li p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  /* Buttons inside the dish list 
+  ul li button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul li button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Secondary button for Edit 
+  ul li button:first-child {
+    background-color: #2ecc71;
+  }
+  
+  ul li button:first-child:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Mobile responsiveness 
+  @media (max-width: 768px) {
+    .containerdishes {
+      padding: 15px;
+    }
+  
+    ul li {
+      padding: 10px;
+    }
+  
+    button[type="submit"] {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    ul li button {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+  }
+   */

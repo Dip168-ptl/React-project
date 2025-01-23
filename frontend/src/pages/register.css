@@ -1,0 +1,110 @@
+/* src/pages/register.css */
+
+  /* Container to center the register on the page */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0px;
+    background-image: url('../Assets/a15.jpg');
+    background-size: cover;
+  }
+  
+ 
+
+  /* Styling the register form */
+  .register-form {
+    background: rgba(190, 187, 187, 0.658);  /*Semi-transparent white background for the register form */
+    padding: 13px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0); /*Adds some shadow to lift the form off the background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left :30px;
+    padding-right :30px;
+    height: 94vh;
+    width: 360px;
+  }
+  
+  /* Styling the header of the register form */  
+  .head {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .head .underline {
+    width: 130px;
+    height: 4px;
+    background-color: #fc2d08;
+    margin: 3px;
+  }
+  
+  
+  .inputr {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 1); /* Solid white background for input fields */
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px 0;
+    /* width: 100%; */
+    max-width: 430px;
+  }
+  
+  
+  /* Styling the input fields */
+  .inputr input {
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    background: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 1em;
+    color: #100f0f;
+  }
+  
+  .inputr textarea {
+    resize: none;
+    /* height: 30px; */
+  }
+
+  /* Placeholder styling */
+  input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Submit button styling */
+  .submitr-btnr {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #4c00b4; /* Button background color */
+    color: #ffffff; /* Text color */
+    cursor: pointer;
+    height: 40px; 
+    font-size: 19px; 
+    font-weight: 700; 
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 8px 0;
+    width: 100%;
+    max-width: 430px;
+    margin-top: 14px;
+    text-align: center;
+    border: none; /* Removes any default borders */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+  }
+  
+  .submitr-btnr:hover {
+    background-color: rgba(0, 0, 0, 0.84); /* Darker color on hover */
+  }
+  
+  
+
+  
+  

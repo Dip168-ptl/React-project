@@ -1,0 +1,77 @@
+/* ProfilePage.css */
+.profile-page {
+    width: 50%;
+    max-width: 600px;
+    margin: 50px auto;
+    margin-top: 120px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.profile-page h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.profile-page img {
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-page label {
+    font-weight: bold;
+    color: #555;
+}
+
+.profile-page input[type="text"],
+.profile-page input[type="email"],
+.profile-page input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.profile-page input[type="file"] {
+    padding: 5px;
+}
+
+.profile-page button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0ca514;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-page button[type="submit"]:hover {
+    background-color: #000000;
+}
+
+/* .profile-page p {
+    text-align: center;
+    font-size: 14px;
+    color: #28a745;
+    margin-top: 15px;
+} */

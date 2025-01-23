@@ -1,0 +1,22 @@
+.search-bar {
+    position: relative;
+    width: 10%; /* Adjust width as needed */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Add padding to the right for the icon */
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #333;
+  }
+  

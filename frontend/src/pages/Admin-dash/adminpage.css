@@ -1,0 +1,220 @@
+/* General Layout */
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbarA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-right {
+  margin-left: auto; /* Adjust for flexible positioning */
+
+}
+
+.search-barA {
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.logout-buttonA {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.logout-buttonA:hover {
+  background-color: #c0392b;
+}
+
+/* Sidebar */
+.sidebarA {
+  height:700px;
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.admin-profile {
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #f39c12;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+
+}
+
+.edit-icon {
+  position: absolute;
+  top: 90px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edit-icon:hover {
+  color: #b92929;
+}
+
+.admin-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.admin-email,
+.admin-contact {
+  font-size: 14px;
+  color: #ecf0f1;
+  margin: 5px 0;
+}
+
+/* Menu */
+/* Container for the buttons */
+.button-A {
+  display: flex;               
+  flex-direction: column;      
+  align-items: center;         
+  margin-top: 20px;  
+  /* margin-left: 15px;  */
+  margin-right: 0px;         
+        
+}
+
+/* List item styles */
+.menu {
+  list-style: none;         
+  padding: 0;
+  margin: 0;                   
+}
+
+/* Individual Button Styles */
+.nav-button {
+  padding: 10px 20px;          
+  background-color: #3498db;   
+  color: white;                 
+  border: none;                 
+  border-radius: 5px;          
+  cursor: pointer;              
+  margin: 10px 0;              
+  transition: background-color 0.3s ease; 
+  font-size: 16px;             
+  width: 97%;                   
+}
+
+/* Hover Effect */
+.nav-button:hover {
+  background-color: #2980b9;   
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-button {
+    width: 100%;               
+  }
+}
+
+
+/* Edit Profile */
+.edit-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.edit-field {
+  margin-bottom: 15px;
+}
+
+.edit-field label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.edit-field input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #bdc3c7;
+  width: 100%;
+  max-width: 200px;
+  margin-top: 10px;
+  background-color: rgb(208, 198, 198);
+
+}
+
+.image-preview {
+  margin-bottom: 15px;
+}
+
+.preview-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #f39c12;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between; /* Adjusts space between buttons */
+  width:60%;
+  margin-top: 10px; /* Add some spacing above */
+}
+
+.save-buttonA,
+.cancel-buttonA {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 6px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width:65px;
+}
+
+.cancel-buttonA {
+  background-color: #e74c3c;
+}
+
+.save-buttonA:hover {
+  background-color: #2980b9;
+}
+
+.cancel-buttonA:hover {
+  background-color: #c0392b;
+}

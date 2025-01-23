@@ -1,0 +1,143 @@
+/* src/pages/Login.css */
+
+/* Container to center the login box on the page */
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  /* margin: 30px; */
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  background-image: url('../Assets/a13.jpg');
+  background-size: cover;
+  
+}
+
+/* Styling the login form */
+.login-form{
+  height: 60vh;
+  background: rgba(190, 187, 187, 0.658); 
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow:  0 4px 8px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 340px;
+}
+
+/* Styling the header of the login form */
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.heading .underline {
+  width: 100px;
+  height: 4px;
+  background-color: #fc2d08;
+  margin: 3px auto;
+}
+
+.logininputs {
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+  /* flex-direction: column; */
+  width: 293px;
+}
+
+.inputl {
+  /* display: flex; */
+  align-items: center;
+  background: rgba(255, 255, 255, 1); 
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 5px;
+  width: 100%;}
+
+
+/* Styling the input fields */
+.inputl input {
+  border: none;
+  outline: none;
+  background: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  color: #202020;
+}
+
+/* Remember Me Section */
+.remember-me {
+  display: flex; 
+  align-items: center; 
+  margin-bottom: 4px;
+  margin-top: 14px;
+
+}
+
+.remember-me input {
+  margin-top: 0px;
+  margin-right: 10px;
+  align-items: center; 
+
+}
+
+/* Placeholder styling */
+input::placeholder {
+  color: #aaa;
+}
+
+/* Forgot password styling */
+.Forgot-password {
+  padding-left: 10px;
+  margin-top: 28px;
+  text-align: left;
+  color:black;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.register-link-outside {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Submit button styling */
+.submitl-btnl {
+  padding: 10px 20px;
+  width: 305px;
+  align-items: center;
+  background: #4c00b4; /* Button background color */
+  color: #ffffff; /* Text color */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 19px; 
+  font-weight: 700; 
+  border: none; 
+}
+
+.submitl-btnl:hover {
+  background-color: rgba(0, 0, 0, 0.84); /* Darker color on hover */
+}
+/* padding: 12px 20px;
+background-color: #28a745;
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+width: 100%; */
+
+
+

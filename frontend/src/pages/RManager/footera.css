@@ -1,0 +1,19 @@
+/* .footer {
+    background-color: #9e1a1a;
+    color: white;
+    padding: 9px;
+    text-align: center;
+    margin-left: 191px;
+    max-width: 990px;
+  } */
+
+.footera-bottom {
+    margin-left: 211px;
+    position: relative;
+    /* color: rgb(235, 16, 16); */
+    text-align: center;
+    margin-top: 0px;
+    border-top: 1px solid #ddd;
+    padding-top: 7px;
+    padding-bottom: 8px;
+  }

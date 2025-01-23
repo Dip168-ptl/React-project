@@ -1,0 +1,204 @@
+/* addrestaurant.css */
+/* Form styling */
+.addrest h1 {
+  margin-top: 95px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.addrestaurant {
+    margin-left: 420px;
+    margin-top: 30px;
+    padding: 20px;
+    width: 690px;
+    background-color: #b0a6a62a;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.421);
+    margin-bottom: 20px;
+
+}
+
+.addrestaurant h2 {
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+.addrestaurant label {
+    display: block;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.addrestaurant input[type="text"],
+.addrestaurant input[type="number"],
+  .addrestaurant select,
+  .addrestaurant textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .addrestaurant input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+  }
+
+/* .addrestaurant input,
+.addrestaurant select {
+  width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addrestaurant input,
+.addrestaurant textarea {
+  width: 100%;
+  padding: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  height: 30px;
+  margin-top: 10px;
+
+}
+
+.addrestaurant textarea {
+  resize: none;
+  height: 70px;
+} */
+
+.addrestaurant button {
+    font-size: 18px;
+    background-color: #21932b;    
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
+
+.addrestaurant button:hover {
+    background-color: #000000;
+}
+
+/* RestaurantList.css */
+
+.restdisplay {
+    max-width: 1000px;
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .restdisplay h2 {
+    margin-left: 200px;    
+    color: #333;
+    font-size: 2.2rem;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+  
+  .restdisplay ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .restdisplay li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .restdisplay li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .restdisplay h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin: 0 0 15px;
+  }
+  
+  .restdisplay p {
+    margin-left: 200px;    
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  .restdisplay img {
+    max-width: 120px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 768px) {
+    .restdisplay {
+      padding: 15px;
+    }
+  
+    .restdisplay h3 {
+      font-size: 1.4rem;
+    }
+  
+    .restdisplay p {
+      font-size: 1rem;
+    }
+  
+    .restdisplay img {
+      max-width: 90px;
+    }
+  }
+  
+  /* Example CSS */
+.restaurant-table {
+  width: 110%;
+  border-collapse: collapse;
+  margin-left: 200px;
+}
+
+.restaurant-table th, .restaurant-table td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.restaurant-table th {
+  background-color: #f2f2f2;
+}
+
+.viewrest-btn {
+  background-color: #4CAF50; /* Green */
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.viewrest-btn:hover {
+  background-color: #000000;
+}
+

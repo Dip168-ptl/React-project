@@ -1,0 +1,226 @@
+
+.container4 {
+  /* margin-top:20px; */
+  /* display: flex; */
+  /* justify-content: left; */
+  height:130vh; 
+  padding: 0px;
+  background-image: url('../Assets/i33.avif');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Navbar Styles */
+.navbarcon {
+  background-color: #8a0c0c;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-leftcon {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  margin-right: 10px;
+}
+
+.navbar-leftcon img {
+  margin-right: 10px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-menucon {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar-menucon li {
+  display: inline-block;
+}
+
+.navbar-menucon li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-menucon li a:hover  {
+  color: #ffcc00;
+}
+
+.navbar-rightcon {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.search-barcon {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+}
+
+.con-button {
+  background-color: #ff9800;
+  border: none;
+  padding: 8px 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.con-button:hover {
+  background-color: #000000;
+}
+
+
+/* .con-button.disabled {
+  background-color: gray;
+  cursor: not-allowed;
+} */
+
+.cart-icon {
+  font-size: 24px;
+}
+
+/* Contact Us Page Styles */
+.contact-us-page {
+  padding: 0px;
+  text-align: center;
+}
+
+.contact-us .contact {
+  margin-bottom: 30px;
+}
+
+.detailcon {
+  margin-top: 40px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.underline {
+  width: 120px;
+  height: 3px;
+  background-color: #ff0000;
+  margin: 10px auto;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-groupcon {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.form-groupcon label {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-groupcon input,
+.form-groupcon textarea {
+  width: 550px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-groupcon button[type='send'] {
+  background-color: #14a41c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 572px;
+}
+
+.form-groupcon button[type='send']:hover {
+  background-color: #000000;
+}
+
+/* Contact Info Section */
+.contact-info-row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  background-color: #00000036;
+}
+
+.info-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.info-icon {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.info-item h3 {
+  font-size: 18px;
+}
+
+.info-item p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Scroll to Top Button - Rectangle Shape */
+.go-up-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #dd981a;
+  border: none;
+  padding: 10px 20px; /* Adjust padding for rectangular shape */
+  font-size: 1.3rem;   /* Slightly smaller text size to fit the rectangle */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0); /* Add a shadow for better visibility */
+  transition: background-color 0.3s;
+}
+
